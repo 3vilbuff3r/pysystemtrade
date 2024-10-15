@@ -5,7 +5,8 @@ IB connection using ib-insync https://ib-insync.readthedocs.io/api.html
 
 import time
 
-from ib_insync import IB
+# XXX: Breaks my shell. Commenting out for now
+# from ib_insync import IB
 
 from sysbrokers.IB.ib_connection_defaults import ib_defaults
 from syscore.exceptions import missingData
